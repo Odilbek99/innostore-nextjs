@@ -20,9 +20,11 @@ const FooterBanner = ({
   return (
     <div className="footer-banner-container">
       <div className="banner-desc">
-        <div className="left">
-          <img src={urlFor(image)} className="footer-banner-image" />
-        </div>
+        {image && (
+          <div className="left">
+            <img src={urlFor(image)} className="footer-banner-image" />
+          </div>
+        )}
         <div className="right">
           <p>{smallText}</p>
           <h3>{midText}</h3>

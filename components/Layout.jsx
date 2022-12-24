@@ -11,11 +11,11 @@ const Layout = ({ children }) => {
         <title>Innopolis Store</title>
       </Head>
       <header>
-        <Navbar />
+        <Navbar data-testid="header" />
       </header>
       <main className="main-container">{children}</main>
       <footer>
-        <Footer />
+        <Footer data-testid="footer" />
       </footer>
     </div>
   )
