@@ -7,14 +7,14 @@ import { Toaster } from 'react-hot-toast'
 import '../styles/globals.css'
 
 function MyApp({ Component }) {
-  return (
-    <StateContext>
-      <Layout>
-        <Toaster />
-        <Component {...pageProps}/>
-      </Layout>
-    </StateContext>
-  )
-}
+//   return (
+//     <StateContext>
+//       <Layout>
+//         <Toaster />
+//         <Component {...pageProps}/>
+//       </Layout>
+//     </StateContext>
+//   )
+// }
 
 export default MyApp
