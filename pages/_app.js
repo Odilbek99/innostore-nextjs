@@ -6,7 +6,7 @@ import { Toaster } from 'react-hot-toast'
 
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component }) {
   return (
     <StateContext>
       <Layout>
