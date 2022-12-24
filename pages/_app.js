@@ -3,6 +3,7 @@ import { Layout } from '../components'
 import { StateContext } from '../context/StateContext'
 import { Toaster } from 'react-hot-toast'
 
+
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -10,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <StateContext>
       <Layout>
         <Toaster />
-        <Component {...pageProps} />
+        <Component {...pageProps}/>
       </Layout>
     </StateContext>
   )
